@@ -3,7 +3,7 @@
     "description" : "Mandrill Wrapper Library For Laravel",
     "keywords": ["mandrill", "laravel", "email"],
     "license": "MIT",
-    "version": "1.0"
+    "version": "1.0",
     "authors": [
         {
             "name" : "Lee Smith",
