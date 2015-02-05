@@ -1,5 +1,4 @@
 # Mandrill
-=================
 
 Simple Mandrill API wrapper for Laravel 5.
 
