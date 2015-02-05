@@ -17,7 +17,7 @@ Per usual, install Commander through Composer.
 
 ```
 "require": {
-	"weblee/mandrill": "~1.0"
+	"weblee/mandrill": "dev-master"
 }
 ```
 
