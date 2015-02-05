@@ -20,6 +20,5 @@
         "psr-4": {
             "Weblee\\Mandrill\\": "src"
         }
-    },
-    "minimum-stability": "stable"
+    }
 }
