@@ -2,7 +2,8 @@
     "name": "weblee/mandrill",
     "description" : "Mandrill Wrapper Library For Laravel",
     "keywords": ["mandrill", "laravel", "email"],
-    "license": "MIT",
+    "license": "MIT",,
+    "version": "1.0"
     "authors": [
         {
             "name" : "Lee Smith",
