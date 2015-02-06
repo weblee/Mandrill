@@ -1,6 +1,6 @@
 {
     "name": "weblee/mandrill",
-    "description" : "Mandrill Wrapper Library For Laravel",
+    "description" : "Laravel 5 Mandrill API Wrapper",
     "keywords": ["mandrill", "laravel", "email"],
     "license": "MIT",
     "version": "1.0",
