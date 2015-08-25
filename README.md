@@ -67,7 +67,7 @@ class SendMyMail{
     
 	public function sendTemplate($data)
 	{
-		$this->mandrill->message()->sendTemplate($data)
+		$this->mandrill->messages()->sendTemplate($data)
 	}
     
 	// ----- OR  -------	
@@ -78,7 +78,7 @@ class SendMyMail{
 	*/
 	public function sendMail(Mail $mandrill, $data)
 	{
-		$mandrill->message()->sendTemplate($data)
+		$mandrill->messages()->sendTemplate($data)
 	}
 
 	// ----- OR  -------
@@ -89,7 +89,7 @@ class SendMyMail{
 	*/
 	public function sendMailByFacade($data)
 	{
-		\MandrillMail::message()->sendTemplate($data);
+		\MandrillMail::messages()->sendTemplate($data);
 	}
 }
 ``` 
