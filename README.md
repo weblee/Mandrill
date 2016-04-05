@@ -32,12 +32,12 @@ Now you are ready to register the service provider and facade if you wish `confi
 ```php
 	'providers' => [
 		......
-		'Weblee\Mandrill\MandrillServiceProvider'
+		Weblee\Mandrill\MandrillServiceProvider::class,
 	],
 	
 	'aliases' => [
 		......
-		'MandrillMail'  => 'Weblee\Mandrill\MandrillFacade'
+		'MandrillMail'  => Weblee\Mandrill\MandrillFacade::class
 	]
 ```
 
